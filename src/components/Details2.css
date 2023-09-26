@@ -1,0 +1,224 @@
+.about_add {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f8fd;
+    display: flex;
+    flex-direction: row;
+}
+
+.bar_add {
+    border-bottom: 1px solid #49a078;
+    width: 10%;
+    margin-left: 0px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.bar_1 {
+    border-bottom: 1px solid #49a078;
+    width: 10%;
+    margin-left: 0px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.img_about_add {
+    margin-top: 160px;
+    margin-right: 80px;
+    margin-left: 150px;
+    width: 120%;
+    height: 500px;
+}
+
+.img1_add {
+    width: 124%;
+    height: 100%;
+}
+
+
+.content_add {
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 0px;
+}
+
+.content_add p {
+    text-align: start;
+    padding-right: 20%;
+    font-size: 16px;
+}
+
+/* .content h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+
+} */
+
+.content_add .about_me_add {
+    margin-bottom: 0.5em;
+    font-size: 44px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.content_add h1 {
+    font-size: 4rem;
+}
+
+.content_add h2 {
+    font-size: 26px;
+    margin-left: 0px;
+    display: flex;
+    padding-right: 20rem;
+    text-align: left;
+}
+
+.content1_add {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.my_service {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fffdf9;
+}
+
+.theory {
+    margin-left: 80px;
+    margin-right: 60px;
+    padding-left: 100px;
+}
+
+.theory h2 {
+    font-size: 44px;
+}
+
+.bar_theory {
+    border-bottom: 1px solid #49a078;
+    width: 20%;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-left: 0px;
+    margin-bottom: 2em;
+    display: block;
+}
+
+.stats {
+    margin-top: 170px;
+}
+
+/* Stylingthe last h2 tag by giving margin bottom */
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 55px;
+    padding-right: 50px;
+}
+
+/* Styling the h2 tag by giving color,
+        letter spacing, font-size etc.*/
+.progress-bar span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+/* Styling the border and box
+        effect of the progress bar*/
+.progress-bar {
+    width: 800px;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+}
+
+/* Stylingthe background color of each
+        animation and border radius */
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: #49a078;
+    border-radius: 20px;
+    animation: progress 1500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+.c {
+    width: 80%;
+}
+
+.java {
+    width: 65%;
+}
+
+.python {
+    width: 80%;
+}
+
+/* Animating the progress bar by
+        initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+
+@media screen and (max-width:1310px) {
+    .about_add {
+        flex-direction: column;
+    }
+
+    .img_about_add {
+        margin-left: 0em;
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .content_add .about_me_add {
+        margin-left: 0px;
+        padding-right: 0px;
+        display: block;
+        text-align: start;
+    }
+
+    .content_add {
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .my_service {
+        flex-direction: column;
+    }
+
+    .progress-bar {
+        display: inline-block;
+        width: 100vw;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .extra-bar {
+        width: 90vw;
+    }
+
+    .theory {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 50px;
+    }
+
+    .bar_add {
+        margin-left: 0em;
+    }
+
+    .bar_1 {
+        margin-left: 0em;
+    }
+}

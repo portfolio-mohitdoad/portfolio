@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:ital,wght@0,200;0,400;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins' !important;
+  /* font-family: 'Titillium Web', sans-serif;; */
+}
+
+:root {
+  --transition: all 0.7s ease;
+}
+
+body {
+  /* background-color: #f4f8fd; */
+  background-color: #fffdf9;
+  overflow-x: hidden;
+}
+
+a,
+h2,
+h1 {
+  color: #212121;
+  text-decoration: none;
+  list-style: none;
+}
+
+h4 {
+  color: #fff
+}
+
+h3,
+p {
+  font-size: 16px;
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  /* text-transform: uppercase; */
+  background: #2270e2;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+}
+
+.btn.hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}

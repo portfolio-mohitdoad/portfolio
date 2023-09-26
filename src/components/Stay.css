@@ -1,0 +1,34 @@
+.stay {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.stay h1 {
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.stay p {
+    padding: 0.5rem;
+}
+
+.stay_email {
+    padding: 10px;
+}
+
+#email {
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.bar_email {
+    border-bottom: 1px solid #49a078;
+
+    width: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 47%;
+    display: block;
+}
