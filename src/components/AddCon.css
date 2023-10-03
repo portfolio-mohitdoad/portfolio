@@ -23,11 +23,15 @@
 
 .card-container {
     max-width: 100vw;
+    /* max-height: 25vh; */
     margin: auto;
+    padding: 20px;
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    justify-content: center;
+    gap: 60px;
+    justify-content: space-around;
+
+    
 }
 
 /* .bar1 {

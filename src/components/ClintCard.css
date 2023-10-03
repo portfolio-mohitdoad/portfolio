@@ -1,11 +1,3 @@
-.card-container {
-    max-width: 1140px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-    justify-content: space-evenly;
-}
 
 .client_card {
     background-color: rgb(255, 255, 255);
@@ -16,6 +8,7 @@
     margin-top: 4%;
     border-radius: 8px;
     box-shadow: 10px 10px 32px #dedede;
+    max-width: 27vw;
 }
 
 .client_card:hover {
