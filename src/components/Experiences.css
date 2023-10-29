@@ -1,126 +1,123 @@
 .experience {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .experience h1 {
-    font-size: 44px;
-    font-weight: 200;
+  font-size: 44px;
+  font-weight: 200;
 }
 
 .exp2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .exp-container {
-    display: flex;
-    flex-direction: row;
-    margin-left: 13%;
-    margin-right: 13%;
-    gap: 40px;
-    margin-top: 40px;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  margin-left: 13%;
+  margin-right: 13%;
+  gap: 40px;
+  margin-top: 40px;
+  justify-content: space-around;
 }
 
 .exp-card {
-    background-color: #ffffff;
-    height: 580px;
-    width: 300px;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 10px 10px 32px #dedede;
+  background-color: #ffffff;
+  height: 580px;
+  width: 300px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 32px #dedede;
 }
 
 .exp-card:hover {
-    cursor: pointer;
-    transform: translateY(-20px);
-    transition: var(--transition);
-    border-radius: 8px;
-    box-shadow: 10px 10px 32px #dedede;
+  cursor: pointer;
+  transform: translateY(-20px);
+  transition: var(--transition);
+  border-radius: 8px;
+  box-shadow: 10px 10px 32px #dedede;
 }
 
 .exp-card h2 {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
 }
 
 .exp_gap {
-    padding: 10px 45px 0px 45px;
+  padding: 10px 45px 0px 45px;
 }
 
 .exp-progress-bar span {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
 }
 
 /* Styling the border and box
         effect of the progress bar*/
 .exp-progress-bar {
-    width: 80%;
-    height: 10px;
-    margin-top: 3em;
-    margin-left: 2em;
-    border-radius: 6px;
-    background-color: #d1d1d1;
+  width: 80%;
+  height: 10px;
+  margin-top: 3em;
+  margin-left: 2em;
+  border-radius: 6px;
+  background-color: #d1d1d1;
 }
 
 /* Stylingthe background color of each
         animation and border radius */
 .exp-percentage {
-    display: block;
-    height: 100%;
-    background-color: rgb(47, 137, 63);
-    border-radius: 6px;
-    animation: progress 1500ms ease-in 1;
+  display: block;
+  height: 100%;
+  background-color: rgb(47, 137, 63);
+  border-radius: 6px;
+  animation: progress 1500ms ease-in 1;
 }
 
 .gd {
-    width: 70%;
+  width: 70%;
 }
 
 .ld {
-    width: 65%;
+  width: 65%;
 }
 
 .b {
-    width: 80%;
+  width: 80%;
 }
 
 .bar_line1 {
-    margin-top: 6em;
+  margin-top: 6em;
 }
 
 .bar_line3 {
-    margin-top: 4.5em;
+  margin-top: 4.5em;
 }
 
-@media screen and (max-width:1460px) {
-    .exp-container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
+@media screen and (max-width: 1460px) {
+  .exp-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 
-@media screen and (max-width:930px) {
-    .exp-container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+@media screen and (max-width: 930px) {
+  .exp-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width:380px) {
-    .exp-card {
-        margin-left: -2em;
-    }
-}
-
-@media screen and (max-width:330px) {
-    .exp-card {
-        margin-left: -3em;
-    }
+@media screen and (max-width: 380px) {
+  .exp2 {
+    padding-left: 12%;
+  }
+  .exp-card {
+    margin-left: -1em;
+  }
 }
