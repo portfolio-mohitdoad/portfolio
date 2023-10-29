@@ -1,157 +1,156 @@
 .portfolio {
-    background-color: #fffdf9;
-    height: 30rem;
+  background-color: #fffdf9;
+  height: 30rem;
 }
 
 .port h1 {
-    font-size: 44px;
-    font-weight: 200;
+  font-size: 44px;
+  font-weight: 200;
 }
 
 .port {
-    margin: auto;
-    margin-top: 10%;
-    display: block;
-    text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  display: block;
+  text-align: center;
 }
 
 .port_btn {
-    color: #212121;
-    border-radius: 8px;
-    font-weight: 700;
+  color: #212121;
+  border-radius: 8px;
+  font-weight: 700;
 }
 
 .port_btn:hover {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 .slider-container {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 20em;
-    justify-content: center;
-    overflow: visible;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 20em;
+  justify-content: center;
+  overflow: visible;
 }
 
 .slider {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    justify-content: start;
-    /* animation: slide 10s linear infinite alternate; */
-    overflow: auto;
-    white-space: nowrap;
-    overflow-y: hidden;
-    height: max-content;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: start;
+  /* animation: slide 10s linear infinite alternate; */
+  overflow: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
+  height: max-content;
 }
 
 .slide {
-    position: relative;
-    margin: 0px;
-    width: 100vw;
-    height: fit-content;
-    display: block;
-    cursor: pointer;
+  position: relative;
+  margin: 0px;
+  width: 100vw;
+  height: fit-content;
+  display: block;
+  cursor: pointer;
 }
 
 .slide img {
-    border-radius: 6px;
-    height: 19em;
-    width: 29em;
-    margin: 22px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+  border-radius: 6px;
+  height: 19em;
+  width: 29em;
+  margin: 22px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .port_names {
-    font-size: 22px;
-    font-weight: 900;
+  font-size: 22px;
+  font-weight: 900;
 }
 
 .hover_content {
-    opacity: 0;
-    font-size: 30px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 400ms ease-out;
-    -moz-transition: all 400ms ease-out;
-    -o-transition: all 400ms ease-out;
-    -ms-transition: all 400ms ease-out;
-    transition: all 400ms ease-out;
-    text-align: center;
+  opacity: 0;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
 }
 
 .slide .hover_content:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .slide .hover_content .hover_text {
-    position: relative;
-    top: 240px;
-    left: -7px;
-    opacity: 1;
-    transition-delay: 0s;
-    transition-duration: 0.4s;
+  position: relative;
+  top: 240px;
+  left: -7px;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
 }
 
 .slide .hover_content:hover .hover_text {
-    opacity: 1;
+  opacity: 1;
 }
 
 @keyframes slide {
-    0% {
-        transform: translateX(0vw);
-    }
+  0% {
+    transform: translateX(0vw);
+  }
 
-    25% {
-        transform: translateX(25vw);
-    }
+  25% {
+    transform: translateX(25vw);
+  }
 
-    50% {
-        transform: translateX(0vw);
-    }
+  50% {
+    transform: translateX(0vw);
+  }
 
-    75% {
-        transform: translateX(-25vw);
-    }
+  75% {
+    transform: translateX(-25vw);
+  }
 
-    100% {
-        transform: translateX(0vw);
-    }
+  100% {
+    transform: translateX(0vw);
+  }
 }
-h5{
+h5 {
+  color: #212121;
+}
+
+@media screen and (max-width: 950px) {
+  .slider {
+    gap: 5vw;
+    white-space: wrap;
+  }
+
+  .slide {
+    animation: slide 10s linear infinite forwards;
+    flex: 0 0 40vw;
+  }
+
+  .slide img {
+    border-radius: 6px;
+    height: 90%;
+    width: 90%;
+    margin: 20px;
+  }
+
+  .hover_content {
+    display: none;
+  }
+  h4 {
     color: #212121;
-}
-
-@media screen and (max-width:950px) {
-
-    .slider {
-        gap: 5vw;
-        white-space: wrap;
-    }
-
-    .slide {
-        animation: slide 10s linear infinite forwards;
-        flex: 0 0 40vw;
-    }
-
-    .slide img {
-        border-radius: 6px;
-        height: 90%;
-        width: 90%;
-        margin: 20px;
-    }
-
-    .hover_content {
-        display: none;
-    }
-    h4{
-        color: #212121;
-    }
+  }
 }
