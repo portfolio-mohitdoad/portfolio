@@ -1,5 +1,5 @@
-import './Illust.css';
-import React from 'react'
+import "./Illust.css";
+import React from "react";
 import i1 from "../assets/Illustration/i1.jpg";
 import i2 from "../assets/Illustration/i2.jpg";
 import i3 from "../assets/Illustration/i3.jpg";
@@ -20,68 +20,244 @@ import i17 from "../assets/Illustration/i17.jpg";
 
 const Illust = () => {
   return (
-    <div className='M_Port'>
-      <div className='head_port'>
+    <div className="M_Port">
+      <div className="head_port">
         <h1>Illustration</h1>
       </div>
-      <samp className='bar_user'></samp>
-      <div className='data_port'>
+      <samp className="bar_user"></samp>
+      <div className="data_port">
         {/* <h2>What Service You Will Get From Me</h2> */}
       </div>
       {/* <samp className='bar_user'></samp> */}
-      <div className='main_table'>
-        <table>
+      <div className="main_table">
+        <table className="table-responsive">
           <tbody>
             {/* https://10web-site.ai/40/wp-content/uploads/sites/43/2023/04/portoflio-1-1024x587-1_kR1AbYmu.webp" class="elementor-animation-float attachment-full size-full wp-image-18 */}
-            <tr className='table_row'>
-              <td rowSpan={2}><div><img className="table_img" src={i1} alt="" /></div></td>
-              <td rowSpan={2}><img className="table_img" src={i2} alt="" /></td>
+            <tr className="table_row">
+              <td rowSpan={2}>
+                <div>
+                  <img className="table_img" src={i1} alt="" />
+                </div>
+              </td>
+              <td rowSpan={2}>
+                <img className="table_img" src={i2} alt="" />
+              </td>
             </tr>
             <tr></tr>
-            <tr className='table_row'>
-              <td rowSpan={2} colSpan={3}><div><img className="table_img" src={i3} alt="" /></div></td>
+            <tr className="table_row">
+              <td rowSpan={2} colSpan={3}>
+                <div>
+                  <img className="table_img" src={i3} alt="" />
+                </div>
+              </td>
             </tr>
             <tr></tr>
-            <tr className='table_row'>
-              <td rowSpan={2}><div><img className="table_img" src={i4} alt="" /></div></td>
-              <td rowSpan={2}><img className="table_img" src={i5} alt="" /></td>
+            <tr className="table_row">
+              <td rowSpan={2}>
+                <div>
+                  <img className="table_img" src={i4} alt="" />
+                </div>
+              </td>
+              <td rowSpan={2}>
+                <img className="table_img" src={i5} alt="" />
+              </td>
             </tr>
             <tr></tr>
-            <tr className='table_row'>
-              <td rowSpan={2}><div><img className="table_img" src={i6} alt="" /></div></td>
-              <td rowSpan={2}><img className="table_img" src={i7} alt="" /></td>
+            <tr className="table_row">
+              <td rowSpan={2}>
+                <div>
+                  <img className="table_img" src={i6} alt="" />
+                </div>
+              </td>
+              <td rowSpan={2}>
+                <img className="table_img" src={i7} alt="" />
+              </td>
             </tr>
             <tr></tr>
-            <tr className='table_row'>
-              <td rowSpan={2}><div><img className="table_img" src={i8} alt="" /></div></td>
-              <td rowSpan={2}><img className="table_img" src={i9} alt="" /></td>
+            <tr className="table_row">
+              <td rowSpan={2}>
+                <div>
+                  <img className="table_img" src={i8} alt="" />
+                </div>
+              </td>
+              <td rowSpan={2}>
+                <img className="table_img" src={i9} alt="" />
+              </td>
             </tr>
             <tr></tr>
-            <tr className='table_row'>
-              <td rowSpan={2}><div><img className="table_img" src={i10} alt="" /></div></td>
-              <td rowSpan={2}><img className="table_img" src={i11} alt="" /></td>
+            <tr className="table_row">
+              <td rowSpan={2}>
+                <div>
+                  <img className="table_img" src={i10} alt="" />
+                </div>
+              </td>
+              <td rowSpan={2}>
+                <img className="table_img" src={i11} alt="" />
+              </td>
             </tr>
             <tr></tr>
-            <tr className='table_row'>
-              <td rowSpan={2}><div><img className="table_img" src={i12} alt="" /></div></td>
-              <td rowSpan={2}><img className="table_img" src={i13} alt="" /></td>
+            <tr className="table_row">
+              <td rowSpan={2}>
+                <div>
+                  <img className="table_img" src={i12} alt="" />
+                </div>
+              </td>
+              <td rowSpan={2}>
+                <img className="table_img" src={i13} alt="" />
+              </td>
             </tr>
             <tr></tr>
-            <tr className='table_row'>
-              <td rowSpan={2}><div><img className="table_img" src={i14} alt="" /></div></td>
-              <td rowSpan={2}><img className="table_img" src={i15} alt="" /></td>
+            <tr className="table_row">
+              <td rowSpan={2}>
+                <div>
+                  <img className="table_img" src={i14} alt="" />
+                </div>
+              </td>
+              <td rowSpan={2}>
+                <img className="table_img" src={i15} alt="" />
+              </td>
             </tr>
             <tr></tr>
-            <tr className='table_row'>
-              <td rowSpan={2}><div><img className="table_img" src={i16} alt="" /></div></td>
-              <td rowSpan={2}><img className="table_img" src={i17} alt="" /></td>
+            <tr className="table_row">
+              <td rowSpan={2}>
+                <div>
+                  <img className="table_img" src={i16} alt="" />
+                </div>
+              </td>
+              <td rowSpan={2}>
+                <img className="table_img" src={i17} alt="" />
+              </td>
             </tr>
             <tr></tr>
           </tbody>
         </table>
+        <table className="table-responsive2">
+          <tbody>
+            {/* https://10web-site.ai/40/wp-content/uploads/sites/43/2023/04/portoflio-1-1024x587-1_kR1AbYmu.webp" class="elementor-animation-float attachment-full size-full wp-image-18 */}
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i1} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i2} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i3} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i4} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i5} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i6} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i7} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i8} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i9} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i10} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i11} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i12} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i13} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i14} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i15} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i16} alt="" />
+                </div>
+              </td>
+            </tr>
+            <tr className="table_row">
+              <td colSpan={3}>
+                <div>
+                  <img className="table_img res_img" src={i17} alt="" />
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Illust
+export default Illust;
