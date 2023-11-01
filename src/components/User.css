@@ -110,15 +110,57 @@
   }
 
   25% {
-    transform: translateX(-125vw);
+    transform: translateX(-100vw);
   }
 
   50% {
-    transform: translateX(-275vw);
+    transform: translateX(-200vw);
   }
 
   75% {
-    transform: translateX(-125vw);
+    transform: translateX(-100vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes slide2 {
+  0% {
+    transform: translateX(0vw);
+  }
+
+  25% {
+    transform: translateX(-165vw);
+  }
+
+  50% {
+    transform: translateX(-330vw);
+  }
+
+  75% {
+    transform: translateX(-165vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes slide3 {
+  0% {
+    transform: translateX(0vw);
+  }
+
+  25% {
+    transform: translateX(-300vw);
+  }
+
+  50% {
+    transform: translateX(-600vw);
+  }
+
+  75% {
+    transform: translateX(-300vw);
   }
 
   100% {
@@ -140,15 +182,24 @@ h5 {
     flex: 0 0 40vw;
   }
 
-  .slide img {
-    height: 50vh;
-    width: 75vw;
-  }
-
   .hover_content {
     display: none;
   }
   h4 {
     color: #212121;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .slide {
+    animation: slide2 10s linear infinite forwards;
+    flex: 0 0 40vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  .slide {
+    animation: slide3 10s linear infinite forwards;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
