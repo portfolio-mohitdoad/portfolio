@@ -110,15 +110,15 @@
   }
 
   25% {
-    transform: translateX(-100vw);
+    transform: translateX(-75vw);
   }
 
   50% {
-    transform: translateX(-200vw);
+    transform: translateX(-150vw);
   }
 
   75% {
-    transform: translateX(-100vw);
+    transform: translateX(-75vw);
   }
 
   100% {
@@ -126,6 +126,27 @@
   }
 }
 @keyframes slide2 {
+  0% {
+    transform: translateX(0vw);
+  }
+
+  25% {
+    transform: translateX(-135vw);
+  }
+
+  50% {
+    transform: translateX(-270vw);
+  }
+
+  75% {
+    transform: translateX(-135vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes slide3 {
   0% {
     transform: translateX(0vw);
   }
@@ -140,27 +161,6 @@
 
   75% {
     transform: translateX(-165vw);
-  }
-
-  100% {
-    transform: translateX(0vw);
-  }
-}
-@keyframes slide3 {
-  0% {
-    transform: translateX(0vw);
-  }
-
-  25% {
-    transform: translateX(-300vw);
-  }
-
-  50% {
-    transform: translateX(-600vw);
-  }
-
-  75% {
-    transform: translateX(-300vw);
   }
 
   100% {
@@ -188,6 +188,11 @@ h5 {
   h4 {
     color: #212121;
   }
+
+  .slide img {
+    height: 15em;
+    width: 22em;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -198,8 +203,8 @@ h5 {
 }
 @media screen and (max-width: 450px) {
   .slide {
-    animation: slide3 10s linear infinite forwards;
-    margin-left: 100px;
-    margin-right: 100px;
+    animation: slide3 20s linear infinite forwards;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
