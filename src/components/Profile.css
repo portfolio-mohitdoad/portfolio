@@ -90,7 +90,7 @@
 
   .new_img {
     display: flex;
-    margin-left: 10%;
+    margin-left: 7%;
     width: 75%;
     height: 85%;
     margin-top: 20px;
@@ -100,6 +100,10 @@
     display: block;
     margin-top: 100px;
     padding-right: 10%;
+  }
+
+  .main_img {
+    width: 115%;
   }
 }
 
@@ -111,5 +115,6 @@
 
   .content {
     margin-left: 40px;
+    margin-top: 20px;
   }
 }

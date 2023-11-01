@@ -110,15 +110,15 @@
   }
 
   25% {
-    transform: translateX(25vw);
+    transform: translateX(-125vw);
   }
 
   50% {
-    transform: translateX(0vw);
+    transform: translateX(-275vw);
   }
 
   75% {
-    transform: translateX(-25vw);
+    transform: translateX(-125vw);
   }
 
   100% {
@@ -141,10 +141,8 @@ h5 {
   }
 
   .slide img {
-    border-radius: 6px;
-    height: 90%;
-    width: 90%;
-    margin: 20px;
+    height: 50vh;
+    width: 75vw;
   }
 
   .hover_content {

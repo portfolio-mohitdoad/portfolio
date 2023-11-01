@@ -1,101 +1,109 @@
 .services {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    background-color: #fffdf9;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #fffdf9;
 }
 
 .serv-div {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 14px;
-    display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  display: block;
 }
 
 .serv-div h1 {
-    font-size: 44px;
-    font-weight: 200;
+  font-size: 44px;
+  font-weight: 200;
 }
 
 .provides {
-    display: flex;
-    flex-direction: row;
-    margin-top: 0.5%;
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-bottom: 5%;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5%;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 5%;
+  justify-content: space-around;
 }
 
 .box {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .box h2 {
-    margin: auto;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: start;
-    font-size: 26px;
+  margin: auto;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: start;
+  font-size: 26px;
 }
 
 .box p {
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: start;
-    padding-bottom: 1em;
-    font-size: 16px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: start;
+  padding-bottom: 1em;
+  font-size: 16px;
 }
 
 .service_img {
-    align-self: center;
-    height: 100%;
-    width: 80%;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  align-self: center;
+  height: 100%;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .service_img:hover {
-    cursor: pointer;
-    transform: translateY(-20px);
-    transition: var(--transition);
-    border-radius: 8px;
+  cursor: pointer;
+  transform: translateY(-20px);
+  transition: var(--transition);
+  border-radius: 8px;
 }
 
-@media screen and (max-width:930px) {
-    .provides {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
+@media screen and (max-width: 930px) {
+  .provides {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 
 @keyframes vertical-shaking {
-    0% {
-        transform: translateY(0)
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    25% {
-        transform: translateY(15px)
-    }
+  25% {
+    transform: translateY(15px);
+  }
 
-    50% {
-        transform: translateY(-15px)
-    }
+  50% {
+    transform: translateY(-15px);
+  }
 
-    75% {
-        transform: translateY(15px)
-    }
+  75% {
+    transform: translateY(15px);
+  }
 
-    100% {
-        transform: translateY(0)
-    }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-@media screen and (max-width:630px) {
-    .serv-div {
-        margin-left: 40px;
-    }
+@media screen and (max-width: 630px) {
+  .serv-div {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .box h2 {
+    padding-left: 0%;
+  }
+  .box p {
+    padding-left: 0%;
+  }
 }
