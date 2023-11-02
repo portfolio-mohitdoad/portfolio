@@ -178,8 +178,14 @@ h5 {
   }
 
   .slide {
-    animation: slide 10s linear infinite forwards;
+    animation: slide 20s linear infinite forwards;
     flex: 0 0 40vw;
+  }
+
+  .slider:hover {
+    .slide {
+      animation: slide 0s;
+    }
   }
 
   .hover_content {
@@ -197,7 +203,7 @@ h5 {
 
 @media screen and (max-width: 700px) {
   .slide {
-    animation: slide2 10s linear infinite forwards;
+    animation: slide2 20s linear infinite forwards;
     flex: 0 0 40vw;
   }
 }
