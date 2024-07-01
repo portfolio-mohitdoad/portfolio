@@ -3,17 +3,17 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Mohit Doad</title>
     <script type="application/ld+json">
         {
-        "@context": "http://schema.org",
-        "@type": "website",
-        "name": "Mohit Doad",
-        "url": "https://mohitdoad.vercel.app/",
-        "logo": "https://mohitdoad.vercel.app/assets/img/hero/me.png"
+            "@context": "http://schema.org",
+            "@type": "website",
+            "name": "Mohit Doad",
+            "url": "https://mohitdoad.vercel.app/",
+            "logo": "https://mohitdoad.vercel.app/assets/img/hero/me.png"
         }
-        </script>
-
+    </script>
+    
+    <title>Mohit Doad</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Mohit Doad Graphics uiux Designer" />
@@ -30,8 +30,8 @@
 
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="assets/img/logo/favicon.png" />
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.png" />
+    <!-- <link rel="apple-touch-icon" href="assets/img/logo/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.png" /> -->
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -137,7 +137,7 @@
 <body>
 
     <!-- Preloader Area Start -->
-    <!-- <div class="preloader">
+    <div class="preloader">
         <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
             <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
         </svg>
@@ -153,7 +153,7 @@
                 <span>g</span>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Preloader Area End -->
 
 
@@ -369,9 +369,7 @@
                                         and leave a lasting impression.</p>
                                 </div>
                                 <i class="flaticon-up-right-arrow"></i>
-                                <button
-                                    data-pdf-url="https://drive.google.com/file/d/13b5jA8vQmps9B91yYX5QaySjlFxQ-t-Y/view?usp=drive_link"
-                                    class="service-link modal-popup"></button>
+                                <button data-pdf-url="https://drive.google.com/file/d/13b5jA8vQmps9B91yYX5QaySjlFxQ-t-Y/view" class="service-link modal-popup"></button>
                             </div>
                             <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp"
                                 data-wow-delay=".6s">
@@ -384,8 +382,8 @@
                                         engagement from your followers.</p>
                                 </div>
                                 <i class="flaticon-up-right-arrow"></i>
-                                <button data-pdf-url="assets/Social Media Design.pdf"
-                                    class="service-link modal-popup"></button>
+                                <button data-pdf-url="https://drive.google.com/file/d/1QSbaLXA92YsI7-QvpNRqZAlWF8vBAshb/view" class="service-link modal-popup"></button>
+
                             </div>
                             <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp"
                                 data-wow-delay=".7s">
@@ -398,7 +396,10 @@
                                         out.</p>
                                 </div>
                                 <i class="flaticon-up-right-arrow"></i>
-                                <button data-pdf-url="assets/Logo Design.pdf" class="service-link modal-popup"></button>
+
+                                
+                                <button data-pdf-url="https://drive.google.com/file/d/1z2twyuLa3E1Y-PK5aICjsVzHU3R85IXR/view" class="service-link modal-popup"></button>
+                           
                             </div>
                             <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp"
                                 data-wow-delay=".8s">
@@ -411,7 +412,8 @@
                                         interaction and satisfaction.</p>
                                 </div>
                                 <i class="flaticon-up-right-arrow"></i>
-                                <button data-pdf-url="assets/UIUXDesign.pdf" class="service-link modal-popup"></button>
+                               
+                                <button data-pdf-url="https://drive.google.com/file/d/1iydYVfvkPD7QbCmdvqkWPMUBlEgE2F4-/view" class="service-link modal-popup"></button>
                             </div>
                             <div class="active-bg wow fadeInUp" data-wow-delay=".5s"></div>
                         </div>
@@ -468,8 +470,7 @@
                                 <h3 class="portfolio-title">Brand</h3>
                                 <!-- <p>Project was about precision and information.</p> -->
                                 <i class="flaticon-up-right-arrow"></i>
-                                <button data-pdf-url="assets/newBranding.pdf"
-                                    class="portfolio-link service-link modal-popup"></button>
+                                    <button data-pdf-url="https://drive.google.com/file/d/1a6wLeEnFgAmMSD0WYOylSM5a2qFBrpKc/view" class="portfolio-link service-link modal-popup"></button>
                             </div>
                         </div>
                         <!-- </div> -->
@@ -1525,44 +1526,25 @@
             });
         });
 
-        document.addEventListener('DOMContentLoaded', function () {
-            var fullscreenButtons = document.querySelectorAll('.fullscreen-button');
-
-            fullscreenButtons.forEach(function (button) {
-                button.onclick = function () {
-                    var activeSlide = this.closest('.popup_content_area').querySelector('.slider-image.active');
-                    if (activeSlide) {
-                        if (activeSlide.classList.contains('fullscreen')) {
-                            activeSlide.classList.remove('fullscreen');
-                        } else {
-                            activeSlide.classList.add('fullscreen');
-                        }
-                    }
-                };
-            });
-        });
+    
 
 
     </script>
     <script>
-        $(document).ready(function () {
-            $('.service-link').magnificPopup({
-                items: {
-                    src: '#pdf-modal',
-                    type: 'inline'
-                },
-                closeBtnInside: true,
-                callbacks: {
-                    open: function () {
-                        var pdfUrl = this.st.el.attr('data-pdf-url');
-                        $('#pdf-modal iframe').attr('src', pdfUrl);
-                    },
-                    close: function () {
-                        $('#pdf-modal iframe').attr('src', '');
-                    }
-                }
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.service-link.modal-popup');
+            
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const pdfUrl = button.getAttribute('data-pdf-url');
+                    window.open(pdfUrl, '_blank');
+                });
             });
         });
+    </script>
+    
+    <script>
+
 
 
 
@@ -1616,18 +1598,6 @@
 
 
 
-    </script>
-    <script>
-        document.getElementById('contact-form').addEventListener('submit', function (event) {
-            event.preventDefault();
-
-            emailjs.sendForm('service_55o6cxk', 'YOUR_TEMPLATE_ID', this)
-                .then(function () {
-                    document.getElementById('response').textContent = 'Message sent successfully!';
-                }, function (error) {
-                    document.getElementById('response').textContent = 'Failed to send message: ' + JSON.stringify(error);
-                });
-        });
     </script>
 </body>
 
